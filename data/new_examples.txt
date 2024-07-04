@@ -1,0 +1,27 @@
+Yeah I really like Leonardo DiCaprio. -> talk(person, Leonardo DiCaprio). attitude(positive). ### prefer(movie, actors, Leonardo DiCaprio).
+
+[Context] talk(person, Joaquin Phoenix, award). content(award, Oscar). attitude(positive). [End Context] Ah yes, I truly agree. He is one of the best actors I've ever seen. His performance in the Joker movie is crazy! So realistic is that kind of madness with nuance and authenticity. I can never forget that! -> talk(person, Joaquin Phoenix, acting skill). attitude(positive). ### talk(movie, Joker, actor performance). content(actor performance, Joaquin Phoenix performs realistic). attitude(positive). ### prefer(movie, actors, Joaquin Phoenix).
+
+[Context] talk(movie, Call Me By Your Name, adaptation). content(adaptation, from book). attitude(positive). [End Context] I love the movie! Those impressive lines! "Call me by your name, and I'll call you by mine." So romantic! Moreover, this movie captured Italy so beautifully, I really want to go there! -> talk(movie, Call Me By Your Name, line). content(line, Call me by your name, and I'll call you by mine). attitude(positive). ### talk(movie, Call Me By Your Name, scene). content(scene, captures Italy so beautifully). attitude(positive). ### prefer(movie, genres, Romance). prefer(movie, located countries, Italy).
+
+[Context] talk(person, James Cameron, filmography). filmography(film, Avatar). attitude(positive). [End Context] Oh I don't like it. But I really like his Titanic. It has wonderful music. -> talk(movie, Avatar). attitude(negative). ### talk(movie, Titanic, music). attitude(positive).
+
+[Context] talk('movie', 'Toy Story 3', 'scene'). content(scene, incinerator distroyed toys). attitude('negative'). The animation, melody and emotions associated with it.. It's quite captivating. However, it didn't please me. [End Context] Uhh? Why you don't like it? -> talk(movie, Toy Story 3). attitude(ask). question(negative attitude).
+
+[Context] talk(book, Invisible Man, social background). content(social background, reflects racial discrimination). attitude(positive). [End Context] Truly agree. Even this was shown in the very beginning where the battle royale happens. Those white spectators didn't even see them as human! -> talk(book, Invisible Man, storyline). content(storyline, battle royale). attitude(positive). ### talk(book, Invisible Man, symbolism). content(symbolism, battle royale symbols racism). attitude(positive).
+
+[Context] talk(movie, Titanic, episode). attitude(positive). [End Context] When did Jack met rose? -> talk(movie, Titanic, episode). content(episode, Jack met Rose). attitude(ask). question(when).
+
+I don’t know what my priorities are. -> irrelevant.
+
+I felt headache. -> irrelevant.
+
+I really appreciate your help. -> thank.
+
+Sorry I need to go. -> quit.
+
+My girlfriend and I had a fight. What should I do? -> irrelevant.
+
+aaaaassssssddddddfff -> irrelevant.
+
+Really enjoy talking with you. Bye! -> quit.

@@ -1,0 +1,23 @@
+Yeah I really like Leonardo Di Caprio. -> talk(person, Leonardo Di Caprio, positive).
+
+[Context] talk(person, Joaquin Phoenix, award, positive). [End Context] Ah yes, I truly agree. He is one of the best actors I've ever seen. His performance in the Joker movie is crazy! I can never forget that! -> talk(person, Joaquin Phoenix, acting skill, positive). talk(movie, Joker, actor performance, positive).
+
+[Context] talk(movie, Call Me By Your Name, adaptation, positive). [End Context] I love the movie! Those impressive lines! "Call me by your name, and I'll call you by mine." So romantic! -> talk(movie, Call Me By Your Name, line, positive).
+
+[Context] talk(person, James Cameron, filmography, positive). talk(movie, Avatar, director, positive). [End Context] Oh I don't like it. But I really like his Titanic. It has wonderful music. -> talk(movie, Avatar, positive). talk(person, James Cameron, filmography, positive). talk(movie, Titanic, music, positive).
+
+[Context] talk('movie', 'Toy Story 3', 'scene', 'negative'). The animation, melody and emotions associated with it.. It's quite captivating. However, it didn't please me. [End Context] Uhh? Why you don't like it? -> talk(movie, Toy Story 3, scene, ask).
+
+I don’t know what my priorities are. -> irrelevant.
+
+I felt headache. -> irrelevant.
+
+I really appreciate your help. -> thank.
+
+Sorry I need to go. -> quit.
+
+My girlfriend and I had a fight. What should I do? -> irrelevant.
+
+aaaaassssssddddddfff -> irrelevant.
+
+Really enjoy talking with you. Bye! -> quit.
